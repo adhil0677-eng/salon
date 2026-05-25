@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BARBERCROP | Impeccable Premium Barbershop & Salon for Men Only</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Welcome to BARBERCROP, a high-end luxury barbershop for men. Get professional haircuts, hot towel shaves, beard trims, and styling in a classic masculine dark aesthetic.">
+  <meta name="keywords" content="barbershop, salon, premium haircut, hot shave, beard trim, hair dyeing, styling, luxury barber, mens grooming">
+  <meta name="author" content="BARBERCROP">
+  <meta name="robots" content="index, follow">
+  
+  <!-- OpenGraph Social Tags -->
+  <meta property="og:title" content="BARBERCROP | Impeccable Premium Barbershop for Men">
+  <meta property="og:description" content="Experience professional, premium styling and grooming services designed exclusively for men in a modern, luxurious dark-themed environment.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.barbercrop.com">
+  <meta property="og:image" content="assets/images/hero_bearded_man.png">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       NAVIGATION HEADER
+       ========================================== -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#home" class="logo" id="logo">
+        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+          <path d="M159.2 272c26.5 0 48-21.5 48-48s-21.5-48-48-48-48 21.5-48 48 21.5 48 48 48zm0-64c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16zm193.6 64c26.5 0 48-21.5 48-48s-21.5-48-48-48-48 21.5-48 48 21.5 48 48 48zm0-64c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16zm25.1-41.9L256 261.2 134.1 130.1C93.4 86.4 24 116.5 24 176c0 53 43 96 96 96 23.3 0 44.6-8.3 61.2-22.1L256 328.7l74.8-78.8c16.6 13.8 37.9 22.1 61.2 22.1 53 0 96-43 96-96 0-59.5-69.4-89.6-110.1-45.9zM120 256c-44.1 0-80-35.9-80-80 0-47.5 54.4-71.1 87.1-36.9l80 86.1c-13.4 19.3-46 30.8-87.1 30.8zm272 0c-41.1 0-73.7-11.5-87.1-30.8l80-86.1c32.7-34.2 87.1-10.6 87.1 36.9 0 44.1-35.9 80-80 80z"/>
+          <path d="M280 328.7L256 303.4l-24 25.3v139.3c0 13.3 10.7 24 24 24s24-10.7 24-24V328.7z"/>
+        </svg>
+        <span>BARBER<span class="highlight">CROP</span></span>
+      </a>
+      
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#blog" class="nav-link">Blog</a>
+        <a href="#contacts" class="nav-link">Contacts</a>
+        <button class="btn btn-book-now" id="navBookBtn">Book Now</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       HERO SECTION (SLIDER)
+       ========================================== -->
+  <section class="hero" id="home">
+    <div class="hero-slider" id="heroSlider">
+      <!-- Slide 1 (Main Hero Image) -->
+      <div class="slide active">
+        <div class="slide-bg" style="background-image: url('assets/images/hero_bearded_man.png');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <span class="hero-subtitle">Est. 2015 | Luxury Barber</span>
+          <h1 class="hero-title">We Will Keep You An Impeccable Look</h1>
+          <div class="hero-details">
+            <div class="hero-detail-item">
+              <span class="hero-detail-label">Location</span>
+              <span class="hero-detail-val">123 Luxury Blvd, NY</span>
+            </div>
+            <div class="hero-detail-item">
+              <span class="hero-detail-label">Hotline</span>
+              <span class="hero-detail-val">+1 (555) 123-4567</span>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <button class="btn btn-book-now">Book Appointment</button>
+            <a href="#services" class="btn btn-secondary">Our Services</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Slide 2 (Interior / Alternate Hero Image) -->
+      <div class="slide">
+        <div class="slide-bg" style="background-image: url('assets/images/team_bg.png');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <span class="hero-subtitle">Unmatched Craftsmanship</span>
+          <h2 class="hero-title">Experience Modern Masculine Elegance</h2>
+          <div class="hero-details">
+            <div class="hero-detail-item">
+              <span class="hero-detail-label">Location</span>
+              <span class="hero-detail-val">123 Luxury Blvd, NY</span>
+            </div>
+            <div class="hero-detail-item">
+              <span class="hero-detail-label">Hotline</span>
+              <span class="hero-detail-val">+1 (555) 123-4567</span>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <button class="btn btn-book-now">Book Appointment</button>
+            <a href="#about" class="btn btn-secondary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Slider Navigation Arrows -->
+    <div class="slider-arrows">
+      <button class="slider-arrow prev" aria-label="Previous slide">
+        <svg viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+      </button>
+      <button class="slider-arrow next" aria-label="Next slide">
+        <svg viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       ABOUT SECTION
+       ========================================== -->
+  <section class="about id-reveal" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <span class="watermark-text">Barbercrop</span>
+          <h2 class="about-heading">Professional Barbershop For Men Only</h2>
+          <span class="accent-line"></span>
+        </div>
+        <div class="about-right reveal">
+          <p class="about-p">
+            At BARBERCROP, we define modern masculinity through premium grooming services. Since our founding, we have committed ourselves to preserving classic barbering techniques while introducing modern styling trends. We provide an exclusive haven for men who appreciate refined aesthetics and demand an impeccable look.
+          </p>
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-number">2015</div>
+              <div class="stat-label">Since Founded</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">1000<span>+</span></div>
+              <div class="stat-label">Clients Satisfied</div>
+            </div>
+          </div>
+          <div>
+            <a href="#services" class="btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SERVICES SECTION
+       ========================================== -->
+  <section class="services id-reveal" id="services">
+    <div class="container">
+      <span class="watermark-text" style="top: -20px; right: -20px; left: auto;">Services</span>
+      
+      <div class="section-header reveal">
+        <span class="section-subtitle">What We Provide</span>
+        <h2 class="section-title">Exclusive Services</h2>
+        <span class="accent-line" style="margin-top: 0;"></span>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1: Haircut -->
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <!-- Scissors Icon -->
+            <svg viewBox="0 0 24 24"><path d="M19 3c-1.1 0-2 .9-2 2v1.27l-5 5.25L7 6.27V5c0-1.1-.9-2-2-2s-2 .9-2 2 .9 2 2 2h.27l4.25 4.5-4.25 4.5H5c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2v-1.27l5-5.25 5 5.25V19c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2h-.27l-4.25-4.5 4.25-4.5H19c1.1 0 2-.9 2-2s-.9-2-2-2zm-14 2c0-.55.45-1 1-1s1 .45 1 1-.45 1-1 1-1-.45-1-1zm0 14c0-.55.45-1 1-1s1 .45 1 1-.45 1-1 1-1-.45-1-1zm14 0c0-.55.45-1 1-1s1 .45 1 1-.45 1-1 1-1-.45-1-1zm0-14c0-.55.45-1 1-1s1 .45 1 1-.45 1-1 1-1-.45-1-1z"/></svg>
+          </div>
+          <h3 class="service-title">Haircut</h3>
+          <p class="service-desc">Precision cutting tailored to your facial structure and individual modern style.</p>
+          <a href="#" class="service-price btn-book-now" data-service="haircut">From $35</a>
+        </div>
+
+        <!-- Service 2: Moustache -->
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <!-- Mustache Icon -->
+            <svg viewBox="0 0 24 24"><path d="M22 13c-1.2-1.5-3-2.5-5-2.5-1.5 0-3 .5-4 1.5-1-1-2.5-1.5-4-1.5-2 0-3.8 1-5 2.5C2.8 14.5 2 16 2 17.5c0 1.4 1.1 2.5 2.5 2.5C5.9 20 7.3 19 8 17.5c.7 1.5 2.1 2.5 3.5 2.5.3 0 .7 0 1-.1.3.1.7.1 1 .1 1.4 0 2.8-1 3.5-2.5.7 1.5 2.1 2.5 3.5 2.5 1.4 0 2.5-1.1 2.5-2.5 0-1.5-.8-3-2-4.5z"/></svg>
+          </div>
+          <h3 class="service-title">Moustache</h3>
+          <p class="service-desc">Refined trimming, edging, and hot wax styling for a sharp masculine moustache.</p>
+          <a href="#" class="service-price btn-book-now" data-service="moustache">From $15</a>
+        </div>
+
+        <!-- Service 3: Shave -->
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <!-- Razor Icon -->
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 16H11V10H13V18zm0-10H11V6H13V8z"/></svg>
+          </div>
+          <h3 class="service-title">Shave</h3>
+          <p class="service-desc">Traditional hot towel, pre-shave oil, straight razor shave, and rich soothing lotion.</p>
+          <a href="#" class="service-price btn-book-now" data-service="shave">From $25</a>
+        </div>
+
+        <!-- Service 4: Stacking -->
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <!-- Comb & Spray bottle -->
+            <svg viewBox="0 0 24 24"><path d="M3 5h18v2H3zm0 4h18v2H3zm0 4h18v2H3zm0 4h18v2H3z"/></svg>
+          </div>
+          <h3 class="service-title">Stacking</h3>
+          <p class="service-desc">Professional wash, custom blowdry, clay grooming, and high-end lock styling.</p>
+          <a href="#" class="service-price btn-book-now" data-service="stacking">From $20</a>
+        </div>
+
+        <!-- Service 5: Beardtrim -->
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <!-- Hair clipper/trimmer -->
+            <svg viewBox="0 0 24 24"><path d="M19.5 9.5c-.27 0-.5.22-.5.5v9c0 1.1-.9 2-2 2H7c-1.1 0-2-.9-2-2v-9c0-.28-.22-.5-.5-.5S4 9.72 4 10v9c0 2.2 1.8 4 4 4h8c2.2 0 4-1.8 4-4v-9c0-.28-.23-.5-.5-.5zM12 2c-3.87 0-7 3.13-7 7v1h14V9c0-3.87-3.13-7-7-7zm5 6H7V6c0-2.76 2.24-5 5-5s5 2.24 5 5v2z"/></svg>
+          </div>
+          <h3 class="service-title">Beardtrim</h3>
+          <p class="service-desc">Beard reshaping, high contrast fading, hot oil wash, and razor outline.</p>
+          <a href="#" class="service-price btn-book-now" data-service="beardtrim">From $20</a>
+        </div>
+
+        <!-- Service 6: Hair Dyeing -->
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <!-- Dyeing Brush / Dropper Icon -->
+            <svg viewBox="0 0 24 24"><path d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 19.4c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l1.9-1.9C9.07 19.57 10.48 20 12 20c4.97 0 9-4.03 9-9s-4.03-9-9-9zm0 15c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"/></svg>
+          </div>
+          <h3 class="service-title">Hair Dyeing</h3>
+          <p class="service-desc">Full grey coverage or creative platinum custom hair dyeing with premium formulas.</p>
+          <a href="#" class="service-price btn-book-now" data-service="dyeing">From $50</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       TEAM + HOURS SPLIT SECTION
+       ========================================== -->
+  <section class="team-hours id-reveal" id="gallery">
+    <!-- Left Split: Team Callout -->
+    <div class="split-left reveal">
+      <span class="section-subtitle">Our Team</span>
+      <h2 class="split-heading">Team Of Professionals Is Waiting For You</h2>
+      <p class="split-desc">
+        Our barbers are masters of their craft, bringing decades of combined grooming experience. Every cut is executed with clinical precision and tailored styling, assuring you leave our shop feeling confident and impeccable.
+      </p>
+      <div>
+        <button class="btn btn-book-now">Book Now</button>
+      </div>
+    </div>
+
+    <!-- Right Split: Hours Schedule -->
+    <div class="split-right reveal">
+      <span class="section-subtitle">Opening Hours</span>
+      <h2 class="split-heading">Special Opening Hours</h2>
+      
+      <div class="hours-table">
+        <div class="hours-row">
+          <span class="hours-day">Monday</span>
+          <span class="hours-time">09:00 AM - 09:00 PM</span>
+        </div>
+        <div class="hours-row">
+          <span class="hours-day">Tuesday</span>
+          <span class="hours-time">09:00 AM - 09:00 PM</span>
+        </div>
+        <div class="hours-row">
+          <span class="hours-day">Wednesday</span>
+          <span class="hours-time">09:00 AM - 09:00 PM</span>
+        </div>
+        <div class="hours-row">
+          <span class="hours-day">Thursday</span>
+          <span class="hours-time">09:00 AM - 09:00 PM</span>
+        </div>
+        <div class="hours-row">
+          <span class="hours-day">Friday</span>
+          <span class="hours-time">09:00 AM - 10:00 PM</span>
+        </div>
+        <div class="hours-row closed">
+          <span class="hours-day">Saturday</span>
+          <span class="hours-time">Closed</span>
+        </div>
+        <div class="hours-row closed">
+          <span class="hours-day">Sunday</span>
+          <span class="hours-time">Closed</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       BLOG SECTION
+       ========================================== -->
+  <section class="blog id-reveal" id="blog">
+    <div class="container">
+      <span class="watermark-text">Recent Posts</span>
+      
+      <div class="section-header reveal">
+        <span class="section-subtitle">Our Blog</span>
+        <h2 class="section-title">Latest From Journal</h2>
+        <span class="accent-line" style="margin-top: 0;"></span>
+      </div>
+
+      <div class="blog-grid">
+        <!-- Blog 1 -->
+        <article class="blog-card reveal">
+          <div class="blog-img-container">
+            <img src="assets/images/blog_tools.png" alt="Barber Tools" class="blog-img" loading="lazy">
+            <span class="blog-date-badge">May 24, 2026</span>
+          </div>
+          <div class="blog-body">
+            <h3 class="blog-title">Essential Barber Tools Every Man Should Own</h3>
+            <p class="blog-excerpt">Uncover the top premium grooming tools to maintain your razor outlines and beard cleanings in between professional barber shop appointments.</p>
+            <a href="#blog" class="blog-link">
+              Read More
+              <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Blog 2 -->
+        <article class="blog-card reveal">
+          <div class="blog-img-container">
+            <img src="assets/images/blog_haircut.png" alt="Beard Grooming styling" class="blog-img" loading="lazy">
+            <span class="blog-date-badge">May 18, 2026</span>
+          </div>
+          <div class="blog-body">
+            <h3 class="blog-title">Trend Report: The Impeccable Mid-Fade Guide</h3>
+            <p class="blog-excerpt">A comprehensive review of the absolute best fade structures and texturized crops taking over high-end mens fashion magazines this summer.</p>
+            <a href="#blog" class="blog-link">
+              Read More
+              <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Blog 3 -->
+        <article class="blog-card reveal">
+          <div class="blog-img-container">
+            <img src="assets/images/blog_shave.png" alt="Hot Shave session" class="blog-img" loading="lazy">
+            <span class="blog-date-badge">May 10, 2026</span>
+          </div>
+          <div class="blog-body">
+            <h3 class="blog-title">The Art Of Traditional Hot Shave Therapy</h3>
+            <p class="blog-excerpt">Learn the therapeutic skincare properties behind our classic multi-step hot steam straight razor ritual designed to clean pores and soothe muscles.</p>
+            <a href="#blog" class="blog-link">
+              Read More
+              <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="footer id-reveal" id="contacts">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: About & Info -->
+        <div class="footer-col reveal">
+          <a href="#home" class="logo">
+            <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+              <path d="M159.2 272c26.5 0 48-21.5 48-48s-21.5-48-48-48-48 21.5-48 48 21.5 48 48 48zm0-64c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16zm193.6 64c26.5 0 48-21.5 48-48s-21.5-48-48-48-48 21.5-48 48 21.5 48 48 48zm0-64c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16zm25.1-41.9L256 261.2 134.1 130.1C93.4 86.4 24 116.5 24 176c0 53 43 96 96 96 23.3 0 44.6-8.3 61.2-22.1L256 328.7l74.8-78.8c16.6 13.8 37.9 22.1 61.2 22.1 53 0 96-43 96-96 0-59.5-69.4-89.6-110.1-45.9zM120 256c-44.1 0-80-35.9-80-80 0-47.5 54.4-71.1 87.1-36.9l80 86.1c-13.4 19.3-46 30.8-87.1 30.8zm272 0c-41.1 0-73.7-11.5-87.1-30.8l80-86.1c32.7-34.2 87.1-10.6 87.1 36.9 0 44.1-35.9 80-80 80z"/>
+              <path d="M280 328.7L256 303.4l-24 25.3v139.3c0 13.3 10.7 24 24 24s24-10.7 24-24V328.7z"/>
+            </svg>
+            <span>BARBER<span class="highlight">CROP</span></span>
+          </a>
+          <p class="footer-desc">Premium dark-themed grooming space and vintage styling lounge exclusively built for modern gentlemen.</p>
+          <div class="contact-info">
+            <div class="contact-item">
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              <span class="contact-text">123 Luxury Blvd, New York, NY 10001</span>
+            </div>
+            <div class="contact-item">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              <span class="contact-text">booking@barbercrop.com</span>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#contacts" class="social-icon" aria-label="Facebook">
+              <svg viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"/></svg>
+            </a>
+            <a href="#contacts" class="social-icon" aria-label="Twitter">
+              <svg viewBox="0 0 24 24"><path d="M17.71 9.33c.48-.4 1.04-.88 1.29-1.41-.41.27-.9.41-1.4.47.46-.42.78-.97.9-1.56-.44.26-.94.45-1.48.56-.43-.46-1.04-.76-1.72-.76-1.31 0-2.37 1.07-2.37 2.38 0 .19.02.37.06.54-1.97-.1-3.72-1.04-4.9-2.48-.2.35-.32.76-.32 1.2 0 .82.42 1.55 1.06 1.98-.39-.01-.76-.12-1.08-.3v.03c0 1.15.82 2.11 1.9 2.32-.2.05-.41.08-.63.08-.15 0-.3-.02-.45-.05.3.94 1.18 1.63 2.22 1.65-.82.64-1.85 1.02-2.97 1.02-.19 0-.38-.01-.58-.04 1.06.68 2.31 1.08 3.66 1.08 4.39 0 6.79-3.64 6.79-6.8 0-.1 0-.21-.01-.31.47-.33.87-.75 1.2-1.22-.43.19-.89.32-1.37.38z"/></svg>
+            </a>
+            <a href="#contacts" class="social-icon" aria-label="Instagram">
+              <svg viewBox="0 0 24 24"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4c0 3.2-2.6 5.8-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8C2 4.6 4.6 2 7.8 2m-.8 2C5 4 4 5 4 7v10c0 2 1 3 3 3h10c2 0 3-1 3-3V7c0-2-1-3-3-3H7m5 3c2.76 0 5 2.24 5 5s-2.24 5-5 5-5-2.24-5-5 2.24-5 5-5m0 2c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3m4.75-2.25c0 .69-.56 1.25-1.25 1.25s-1.25-.56-1.25-1.25.56-1.25 1.25-1.25 1.25.56 1.25 1.25z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Hotline Spotlight -->
+        <div class="footer-col footer-center reveal">
+          <span class="footer-phone-label">Booking Hotline</span>
+          <a href="tel:+15551234567" class="footer-phone-number">+1 (555) 123-4567</a>
+        </div>
+
+        <!-- Col 3: Newsletter Sign up -->
+        <div class="footer-col reveal">
+          <h3 class="footer-title">Newsletter</h3>
+          <p class="footer-desc" style="margin-bottom: 20px;">Subscribe to receive style journals, haircut discounts, and exclusive offers.</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <div class="newsletter-input-group">
+              <input type="email" placeholder="Your Email Address" class="newsletter-input" required aria-label="Newsletter email field">
+            </div>
+            <button type="submit" class="btn newsletter-btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <span>&copy; 2026 BARBERCROP. All Rights Reserved.</span>
+        <div class="footer-bottom-links">
+          <a href="#contacts">Privacy Policy</a>
+          <a href="#contacts">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       DYNAMIC STEP-BY-STEP BOOKING MODAL
+       ========================================== -->
+  <div class="booking-modal" id="bookingModal">
+    <div class="modal-card">
+      <button class="modal-close-btn" aria-label="Close modal">
+        <svg viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+      </button>
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h2 class="modal-title">Book Reservation</h2>
+        <!-- Step Indicators -->
+        <div class="steps-indicator">
+          <div class="progress-bar-fill"></div>
+          <div class="step-node active" data-step="0">1</div>
+          <div class="step-node" data-step="1">2</div>
+          <div class="step-node" data-step="2">3</div>
+          <div class="step-node" data-step="3">4</div>
+        </div>
+      </div>
+
+      <!-- Modal Body (Steps Container) -->
+      <div class="modal-body">
+        
+        <!-- Step 1: Select Service -->
+        <div class="modal-step active" id="stepService">
+          <h3 class="step-title">Select Grooming Service</h3>
+          <div class="service-options">
+            <div class="option-card" data-value="haircut">
+              <span class="option-name">Haircut</span>
+              <span class="option-price">$35</span>
+            </div>
+            <div class="option-card" data-value="moustache">
+              <span class="option-name">Moustache Trim</span>
+              <span class="option-price">$15</span>
+            </div>
+            <div class="option-card" data-value="shave">
+              <span class="option-name">Classic Straight Shave</span>
+              <span class="option-price">$25</span>
+            </div>
+            <div class="option-card" data-value="stacking">
+              <span class="option-name">Wash & Stacking</span>
+              <span class="option-price">$20</span>
+            </div>
+            <div class="option-card" data-value="beardtrim">
+              <span class="option-name">Precision Beardtrim</span>
+              <span class="option-price">$20</span>
+            </div>
+            <div class="option-card" data-value="dyeing">
+              <span class="option-name">Premium Hair Dyeing</span>
+              <span class="option-price">$50</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 2: Select Barber -->
+        <div class="modal-step" id="stepBarber">
+          <h3 class="step-title">Choose Professional Barber</h3>
+          <div class="barber-options">
+            <div class="barber-card" data-value="alex">
+              <div class="barber-avatar">A</div>
+              <span class="barber-name">Alex Vane</span>
+              <span class="barber-role">Master Barber</span>
+            </div>
+            <div class="barber-card" data-value="marcus">
+              <div class="barber-avatar">M</div>
+              <span class="barber-name">Marcus Cole</span>
+              <span class="barber-role">Senior Stylist</span>
+            </div>
+            <div class="barber-card" data-value="ethan">
+              <div class="barber-avatar">E</div>
+              <span class="barber-name">Ethan Stark</span>
+              <span class="barber-role">Beard Specialist</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 3: Date & Time Selection -->
+        <div class="modal-step" id="stepDateTime">
+          <h3 class="step-title">Select Date & Time</h3>
+          <div class="datetime-container">
+            <div class="date-picker-col">
+              <label for="bookingDate" style="font-size:0.8rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:5px; display:block; color:var(--text-gray);">Pick Date</label>
+              <input type="date" id="bookingDate" class="datepicker-input" required>
+            </div>
+            <div class="time-slots-col">
+              <label style="font-size:0.8rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:10px; display:block; color:var(--text-gray);">Pick Time Slot</label>
+              <div class="time-slots-grid">
+                <div class="time-slot">09:00 AM</div>
+                <div class="time-slot">10:00 AM</div>
+                <div class="time-slot">11:30 AM</div>
+                <div class="time-slot">01:00 PM</div>
+                <div class="time-slot">02:30 PM</div>
+                <div class="time-slot">04:00 PM</div>
+                <div class="time-slot">05:30 PM</div>
+                <div class="time-slot">07:00 PM</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 4: Customer Details Form -->
+        <div class="modal-step" id="stepDetails">
+          <h3 class="step-title">Your Contact Details</h3>
+          <div class="details-form">
+            <div class="form-group">
+              <label for="clientName">Full Name</label>
+              <input type="text" id="clientName" class="form-input" placeholder="e.g. John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="clientPhone">Phone Number</label>
+              <input type="tel" id="clientPhone" class="form-input" placeholder="e.g. +1 (555) 000-0000" required>
+            </div>
+            <div class="form-group">
+              <label for="clientEmail">Email Address</label>
+              <input type="email" id="clientEmail" class="form-input" placeholder="e.g. john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="bookingNotes">Special Instructions (Optional)</label>
+              <textarea id="bookingNotes" class="form-input" placeholder="e.g. haircut fade details, beard requests" style="resize: none; height: 80px;"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 5: Booking Success Confirmation -->
+        <div class="modal-step" id="stepSuccess">
+          <div class="success-message">
+            <div class="success-icon">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+            </div>
+            <h2 class="success-title">Reservation Confirmed!</h2>
+            <p class="success-desc">Your seat has been reserved. A confirmation email and text has been dispatched with appointment cards.</p>
+            
+            <div class="booking-summary-box">
+              <div class="summary-row">
+                <span class="summary-label">Service:</span>
+                <span class="summary-val" id="summaryService">Haircut</span>
+              </div>
+              <div class="summary-row">
+                <span class="summary-label">Price:</span>
+                <span class="summary-val" id="summaryPrice">$35</span>
+              </div>
+              <div class="summary-row">
+                <span class="summary-label">Stylist:</span>
+                <span class="summary-val" id="summaryBarber">Alex Cole</span>
+              </div>
+              <div class="summary-row">
+                <span class="summary-label">Date & Time:</span>
+                <span class="summary-val" id="summaryDateTime">Mon, May 25, 2026 @ 10:00 AM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="prevStep" style="display: none;">Back</button>
+        <button class="btn" id="nextStep">Next Step</button>
+        <button class="btn" id="successClose" style="display: none; width:100%;">Close Wizard</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
