@@ -61,7 +61,7 @@
     <div class="hero-slider" id="heroSlider">
       <!-- Slide 1 (Main Hero Image) -->
       <div class="slide active">
-        <div class="slide-bg" style="background-image: url('assets/images/hero_bearded_man.png');"></div>
+        <div class="slide-bg" id="heroBg1"></div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
           <span class="hero-subtitle">Est. 2015 | Luxury Barber</span>
@@ -85,7 +85,7 @@
       
       <!-- Slide 2 (Interior / Alternate Hero Image) -->
       <div class="slide">
-        <div class="slide-bg" style="background-image: url('assets/images/team_bg.png');"></div>
+        <div class="slide-bg" id="heroBg2"></div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
           <span class="hero-subtitle">Unmatched Craftsmanship</span>
@@ -306,7 +306,7 @@
         <!-- Blog 1 -->
         <article class="blog-card reveal">
           <div class="blog-img-container">
-            <img src="assets/images/blog_tools.png" alt="Barber Tools" class="blog-img" loading="lazy">
+            <img id="blogImg1" alt="Barber Tools" class="blog-img" loading="lazy">
             <span class="blog-date-badge">May 24, 2026</span>
           </div>
           <div class="blog-body">
@@ -322,7 +322,7 @@
         <!-- Blog 2 -->
         <article class="blog-card reveal">
           <div class="blog-img-container">
-            <img src="assets/images/blog_haircut.png" alt="Beard Grooming styling" class="blog-img" loading="lazy">
+            <img id="blogImg2" alt="Beard Grooming styling" class="blog-img" loading="lazy">
             <span class="blog-date-badge">May 18, 2026</span>
           </div>
           <div class="blog-body">
@@ -338,7 +338,7 @@
         <!-- Blog 3 -->
         <article class="blog-card reveal">
           <div class="blog-img-container">
-            <img src="assets/images/blog_shave.png" alt="Hot Shave session" class="blog-img" loading="lazy">
+            <img id="blogImg3" alt="Hot Shave session" class="blog-img" loading="lazy">
             <span class="blog-date-badge">May 10, 2026</span>
           </div>
           <div class="blog-body">
@@ -591,6 +591,7 @@
   </div>
 
   <!-- Scripts -->
+  <script src="images.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

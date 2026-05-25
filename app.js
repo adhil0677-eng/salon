@@ -1,5 +1,23 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+  // Dynamically inject Base64 images
+  if (typeof IMAGES !== 'undefined') {
+    const heroBg1 = document.getElementById('heroBg1');
+    const heroBg2 = document.getElementById('heroBg2');
+    const teamHoursSection = document.querySelector('.team-hours');
+    const blogImg1 = document.getElementById('blogImg1');
+    const blogImg2 = document.getElementById('blogImg2');
+    const blogImg3 = document.getElementById('blogImg3');
+
+    if (heroBg1) heroBg1.style.backgroundImage = `url('${IMAGES.hero}')`;
+    if (heroBg2) heroBg2.style.backgroundImage = `url('${IMAGES.teamBg}')`;
+    if (teamHoursSection) teamHoursSection.style.backgroundImage = `url('${IMAGES.teamBg}')`;
+    
+    if (blogImg1) blogImg1.src = IMAGES.blogTools;
+    if (blogImg2) blogImg2.src = IMAGES.blogHaircut;
+    if (blogImg3) blogImg3.src = IMAGES.blogShave;
+  }
+
   /* ==========================================
      GLOBAL DOM SELECTORS & STATE
      ========================================== */
